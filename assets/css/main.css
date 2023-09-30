@@ -1,0 +1,33 @@
+/* fonts */
+@import url('fonts.css');
+
+/* typography */
+@import url('typography.css');
+
+
+/* buttons */
+.btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: Gelion;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background: #C8E993;
+    color: #1C2928;
+}
+/* .btn-secondary{
+    border: 1px solid #255CFF;
+    color: #255CFF;
+}
+.btn-tertiary{
+    border: 0;
+    border-radius: 12px;
+    background: #F7F8FD;
+    color: var(--wasigo-blue)
+} */

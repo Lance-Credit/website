@@ -1,0 +1,44 @@
+:root {
+    /* --wasigo-text-gray: #52525B; */
+    /* --wasigo-blue: #255CFF;
+    --wasigo-light-blue: #F1F5FF; */
+}
+
+body{
+    font-family: 'Aventa';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 20px;
+    color: var(--wasigo-text-gray);
+    line-height: 30px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    /* font-family: Roobert;
+    font-style: normal;
+    font-weight: 700; */
+}
+
+h1{
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+h2{
+    /* margin-bottom: 7px;
+    font-size: 36px; */
+    /* line-height: 130%; 46.8px     */
+}
+
+
+@media (min-width: 640px) {
+    h1{
+        font-size: 72px;
+        line-height: 64px;
+    }
+}
