@@ -1,5 +1,5 @@
 <template>
-    <div class="z-10 w-full fixed py-9 px-[138.5px] flex justify-between">
+    <div class="z-10 w-full absolute py-9 px-[138.5px] flex justify-between">
         <div>
             <svg width="171" height="24" viewBox="0 0 171 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.88324 11.3978L9.35321 0.222132C9.678 -0.132895 10.0918 -0.0538805 10.2759 0.398562L12.3043 5.3776C12.3907 5.62274 12.4124 5.88773 12.3671 6.14468C12.3218 6.40164 12.2111 6.64106 12.0467 6.83776L8.10608 12.8385H2.6704C1.6143 12.8504 0.984362 12.4283 1.88324 11.3978Z" fill="#C8E993"/>
