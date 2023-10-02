@@ -3,7 +3,10 @@ export default {
   content: [],
   theme: {
     fontFamily: {
-      'gelion': ['Gelion'],
+      'aventa': ['Aventa'],
+      'gelion-l': ['Gelion Light'],
+      'gelion-r': ['Gelion Regular'],
+      'gelion-m': ['Gelion Medium'],
     }
   },
   plugins: [],

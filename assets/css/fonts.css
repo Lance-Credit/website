@@ -6,15 +6,36 @@
 }
 
 @font-face {
-    font-family: 'Gelion';
-    src: url('~/assets/fonts/Gelion-Light.ttf');
+    font-family: 'Aventa';
+    src: url('~/assets/fonts/Aventa-Medium.woff2');
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Gelion';
-    src: url('~/assets/fonts/Gelion-Medium.ttf');
+    font-family: 'Aventa';
+    src: url('~/assets/fonts/Aventa-SemiBold.woff2');
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gelion Light';
+    src: url('~/assets/fonts/Gelion-Light.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gelion Regular';
+    src: url('~/assets/fonts/Gelion-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gelion Medium';
+    src: url('~/assets/fonts/Gelion-Medium.woff');
+    font-style: normal;
+    font-weight: normal;
 }

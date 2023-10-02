@@ -2,7 +2,7 @@
     <div class="relative pt-[194px] sm:pt-[254px] pb-[348px] sm:pb-[707px] px-8 sm:px-[323px] bg-[#1C2928] text-center">
         <h1 class="hidden sm:block text-[#C8E993] font-normal">Redefining Credit<br>for the African Market</h1>
         <h1 class="sm:hidden text-[#C8E993] font-normal">Redefining Credit for the African Market</h1>
-        <p class="text-white sm:w-[623px] m-auto font-gelion text-base sm:text-xl leading-[26px]">
+        <p class="text-white sm:w-[623px] m-auto font-gelion-l text-base sm:text-xl leading-[26px]">
             At Lance, We're turning dreams into reality by fueling dreams, aspirations, and driving
             progress like never before. Welcome to the new future of credit for the African market.
         </p>

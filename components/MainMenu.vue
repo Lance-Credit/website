@@ -18,10 +18,10 @@
             </svg>
         </div>
         <ul class="flex gap-16 items-center">
-            <li class="text-[#C8E993] font-gelion text-base font-medium">
+            <li class="text-[#C8E993] font-gelion-m text-base font-medium">
                 Products
             </li>
-            <li class="text-[#C8E993] font-gelion text-base font-medium">
+            <li class="text-[#C8E993] font-gelion-m text-base font-medium">
                 About Us
             </li>
             <li>

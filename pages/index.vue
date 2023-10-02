@@ -2,7 +2,7 @@
     <MainMenu class="hidden sm:flex"/>
     <HeroSection/>
     <div class="pt-20 sm:pt-[120px] pb-[104px] px-8 sm:px-[160px] bg-[#FBFBFB]">
-        <h2 class="mb-10 hidden sm:block text-center font-normal text-[#021E1C]">
+        <h2 class="mb-10 hidden sm:block text-center font-medium text-[#021E1C]">
             Providing the best lending services<br>through multiple channels
         </h2>
         <h2 class="mb-5 sm:hidden text-center font-normal text-[#021E1C]">
@@ -10,10 +10,10 @@
         </h2>
         <div class="mb-4 sm:mb-8 flex flex-col sm:flex-row gap-4 sm:gap-6 mx-auto max-w-[1120px]">
             <div class="w-full sm:w-[548px] h-[458px] sm:h-[558px] overflow-hidden pt-[56px] px-10 sm:px-[106px] rounded-3xl border border-solid border-[#F2F2F2] bg-white shadow-[15px_15px_20px_0_rgba(0,0,0,0.03)]">
-                <p class="mb-6 w-fit mx-auto py-1 px-6 bg-[#C8E993] rounded-[32px] text-center font-gelion font-normal text-[#051716] text-base">
-                    Only available on the <span class="text-[#051716] font-medium">Mobile</span>
+                <p class="mb-6 w-fit mx-auto py-1 px-6 bg-[#C8E993] rounded-[32px] text-center font-gelion-r font-normal text-[#051716] text-base">
+                    Only available on the <span class="text-[#051716] font-gelion-m">Mobile</span>
                 </p>
-                <h4 class="mb-[42px] hidden sm:block text-[#1C1E1E] font-normal text-center">
+                <h4 class="mb-[42px] hidden sm:block text-[#1C1E1E] font-medium text-center">
                     Lend and borrow loans from<br>friends and family
                 </h4>
                 <h4 class="mb-[42px] sm:hidden text-[#1C1E1E] font-normal text-center">
@@ -64,7 +64,7 @@
                         <path d="M120.65 194.85C120.992 194.808 121.291 194.887 121.547 195.088C121.796 195.289 121.939 195.545 121.977 195.857C122.017 196.184 121.94 196.471 121.747 196.718C121.547 196.974 121.276 197.123 120.934 197.165C120.592 197.207 120.293 197.128 120.037 196.928C119.782 196.735 119.634 196.475 119.594 196.149C119.554 195.822 119.634 195.534 119.835 195.286C120.037 195.037 120.308 194.892 120.65 194.85Z" fill="black"/>
                     </svg>
                 </div>
-                <p class="mb-[34px] sm:mb-[35px] text-center text-[#1C1E1E] font-gelion text-lg sm:text-2xl leading-[22px] sm:leading-[28px] tracking-[-0.18px] sm:tracking-[-0.24px]">
+                <p class="mb-[34px] sm:mb-[35px] text-center text-[#1C1E1E] font-gelion-l text-lg sm:text-2xl leading-[22px] sm:leading-[28px] tracking-[-0.18px] sm:tracking-[-0.24px]">
                     Get a loan in 3 easy steps,<br>It’s pretty much straight forward!
                 </p>
                 <div class="flex items-center justify-center w-[64px] sm:w-[98px] h-[64px] sm:h-[98px] rounded-full bg-[#C8E993] mx-auto">
@@ -76,8 +76,8 @@
             </div>
         </div>
         <div class="mb-20 sm:mb-[104px] py-14 sm:py-[60px] px-6 sm:px-[227px] max-w-[1120px] mx-auto rounded-3xl bg-[#C8E993] text-center bg-[url('~/assets/img/dwnlbgm-pattern.svg')] sm:bg-[url('~/assets/img/dwnlbg-pattern.svg')] bg-no-repeat bg-cover">
-            <h3 class="mb-4 text-[#051716] font-normal">Explore credit offerings within your network</h3>
-            <p class="mb-8 text-[#3E5655] font-gelion text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px]">
+            <h3 class="mb-4 text-[#051716] font-semibold">Explore credit offerings within your network</h3>
+            <p class="mb-8 text-[#3E5655] font-gelion-r text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px]">
                 Lance Credit allows you to give and receive loans from the people within your network and to request for loans directly from the platform.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
@@ -104,10 +104,10 @@
         </div>
         <div class="mb-4 sm:mb-6 flex flex-col sm:flex-row gap-4 sm:gap-6 mx-auto max-w-[1120px]">
             <div class="w-full sm:w-[548px] h-[458px] sm:h-[558px] overflow-hidden pt-[56px] pb-[56.49px] pl-[17.16px] overflow-hidden rounded-3xl border border-solid border-[#F2F2F2] bg-white shadow-[15px_15px_20px_0_rgba(0,0,0,0.03)]">
-                <p class="mb-6 w-fit mx-auto py-1 px-6 bg-[#0A3D3A] rounded-[32px] text-center font-gelion font-normal text-[#F7FDF8] text-base">
-                    Only available on the <span class="text-[#F7FDF8] font-medium">Web</span>
+                <p class="mb-6 w-fit mx-auto py-1 px-6 bg-[#0A3D3A] rounded-[32px] text-center font-gelion-r font-normal text-[#F7FDF8] text-base">
+                    Only available on the <span class="text-[#F7FDF8] font-gelion-m">Web</span>
                 </p>
-                <h4 class="mb-[42px] text-[#1C1E1E] font-normal text-center">
+                <h4 class="mb-[42px] text-[#1C1E1E] font-medium text-center">
                     Request loans directly from<br>Lance Credit
                 </h4>
                 <div class="w-full text-center">
@@ -153,7 +153,7 @@
                         <path d="M120.65 195.655C120.992 195.613 121.291 195.692 121.547 195.892C121.796 196.093 121.939 196.35 121.977 196.661C122.017 196.988 121.94 197.275 121.747 197.523C121.547 197.779 121.276 197.928 120.934 197.97C120.592 198.012 120.293 197.932 120.037 197.732C119.782 197.54 119.634 197.28 119.594 196.953C119.554 196.626 119.634 196.339 119.835 196.09C120.037 195.842 120.308 195.697 120.65 195.655Z" fill="black"/>
                     </svg>
                 </div>
-                <p class="mb-[34px] sm:mb-[35px] text-center text-[#1C1E1E] font-gelion text-lg sm:text-2xl leading-[22px] sm:leading-[28px] tracking-[-0.18px] sm:tracking-[-0.24px]">
+                <p class="mb-[34px] sm:mb-[35px] text-center text-[#1C1E1E] font-gelion-l text-lg sm:text-2xl leading-[22px] sm:leading-[28px] tracking-[-0.18px] sm:tracking-[-0.24px]">
                     Get a loan form lance in like 4 clicks<br> so. Just check it out and see
                 </p>
                 <div class="flex items-center justify-center w-[64px] sm:w-[98px] h-[64px] sm:h-[98px] rounded-full bg-[#1C2928] mx-auto">
@@ -165,8 +165,8 @@
             </div>
         </div>
         <div class="py-[109px] sm:py-16 px-6 sm:px-[267px] max-w-[1120px] mx-auto rounded-3xl bg-[#1C2928] text-center bg-[url('~/assets/img/receivem-pattern.svg')] sm:bg-[url('~/assets/img/receive-pattern.svg')] bg-no-repeat bg-cover">
-            <h3 class="mb-4 text-[#C8E993] font-normal">Receive a loan directly from Lance </h3>
-            <p class="mb-8 text-[#ACBD91] font-gelion text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px]">
+            <h3 class="mb-4 text-[#C8E993] font-semibold">Receive a loan directly from Lance </h3>
+            <p class="mb-8 text-[#ACBD91] font-gelion-r text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px]">
                 Lance Credit allows you to request for loans directly from Lance, powered by a community network. 
             </p>
             <NuxtLink to="" class="btn btn-primary flex items-center gap-4 w-fit mx-auto">
@@ -178,10 +178,38 @@
             </NuxtLink>
         </div>
     </div>
-    <div class="py-24 px-[160.5px] bg-[white]">
-        <div class="flex max-w-[1120px] items-center justify-center">
-            <div>
-
+    <div class="py-10 sm:py-24 px-8 sm:px-[160.5px] bg-[white]">
+        <div class="flex flex-col sm:flex-row max-w-[1120px] mx-auto items-center justify-between font-gelion-r">
+            <div class="w-full sm:w-[453px] mb-10 sm:mb-0">
+                <div class="mb-8 flex gap-3 items-center justify-center sm:justify-start">
+                    <div class="w-[42px] border-t border-t-solid border-t-[#0A3D3A]"></div>
+                    <span class="text-[#0A3D3A] text-base leading-[normal] uppercase">What are community codes</span>
+                </div>
+                <p class="mb-4 text-[#082423] font-aventa font-semibold text-xl sm:text-[32px] leading-[24px] sm:leading-[40px] tracking-[-0.2px] sm:tracking-[-0.32px] text-center sm:text-left">
+                    Creating and leveraging a community based on trust
+                </p>
+                <p class="mb-8 text-[#5C6C67] text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px] text-center sm:text-left">
+                    Introducing our community codes system, designed to enhance safety and trust. Ensuring high standards of ethical conduct for lending and borrowing activities.
+                </p>
+                <NuxtLink to="" class="btn btn-secondary flex items-center w-fit gap-4 mx-auto">
+                    <span>Get a loan on the web</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M3.33594 9.77148C3.33594 9.45507 3.57107 9.19358 3.87613 9.15219L3.96094 9.14648H16.4609C16.8061 9.14648 17.0859 9.42631 17.0859 9.77148C17.0859 10.0879 16.8508 10.3494 16.5457 10.3908L16.4609 10.3965H3.96094C3.61576 10.3965 3.33594 10.1167 3.33594 9.77148Z" fill="white"/>
+                        <path d="M10.9809 5.19307C10.7363 4.94952 10.7354 4.5538 10.979 4.30919C11.2004 4.08683 11.5476 4.06591 11.7926 4.24693L11.8629 4.30729L16.9045 9.32729C17.1276 9.54936 17.1479 9.89779 16.9654 10.1429L16.9046 10.213L11.8629 15.2339C11.6183 15.4774 11.2226 15.4766 10.979 15.232C10.7576 15.0097 10.7381 14.6624 10.9202 14.4181L10.9808 14.3482L15.5775 9.76993L10.9809 5.19307Z" fill="white"/>
+                    </svg>
+                </NuxtLink>
+            </div>
+            <div class="relative w-full sm:w-[453px] h-[406px] bg-[#D9F7D2] rounded-3xl bg-[url('~/assets/img/commbg.svg')] bg-no-repeat bg-[center_top_60.86px] sm:bg-[center_top_32px] bg-[length:calc(100%-49.72px)_auto] sm:bg-auto">
+                <div class="bg-white py-4 px-4 sm:px-6 w-[calc(100%-38px)] sm:w-[338px] mx-auto absolute bottom-[16px] left-0 right-0 mx-auto rounded-xl">
+                    <p class="mb-2 text-[#041111] text-sm sm:text-base leading-[18px] sm:leading-[20px] tracking-[-0.14px] sm:tracking-[-0.16px] font-gelion-m">
+                        Your Code
+                    </p>
+                    <div class="mb-2 text-[#041111] py-2 px-4 rounded-lg border border-solid border-[#232D44] bg-[#ff75270d]">
+                        <p class="mb-1 text-[11px] sm:text-xs leading-[16px] sm:leading-[18px]">Community Code</p>
+                        <p class="font-gelion-m text-xs leading-[18px]">FAYAWOFAYA420</p>
+                    </div>
+                    <p class="text-[#232D44] text-xs leading-[20px]">I do not have a community code</p>
+                </div>
             </div>
         </div>
     </div>
@@ -191,7 +219,11 @@
 .a{
 
     
+ 
     
+
+    
+
 
 
 }
