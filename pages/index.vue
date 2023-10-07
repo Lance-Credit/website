@@ -276,18 +276,106 @@
             </div>
         </div>
     </div>
+    <div class="bg-[#1C2928] py-20 sm:py-[100px] px-8 sm:px-40">
+        <div class="max-w-[1120px] mx-auto">
+            <div class="mb-10 flex flex-col sm:flex-row items-center gap-8 justify-between text-center">
+                <p class="text-white text-[22px] sm:text-[40px] leading-[28px] sm:leading-[42px] tracking-[-0.22px] sm:tracking-[-0.4px] font-medium">
+                    Giving credit where credit is due.
+                </p>
+                <div class="flex items-center gap-4">
+                    <button @click="previousTestimonial" class="py-4 px-6 bg-[#0F201F] w-[68px] h-[52px] rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M16.6641 10.2285C16.6641 10.5449 16.4289 10.8064 16.1239 10.8478L16.0391 10.8535L3.53906 10.8535C3.19388 10.8535 2.91406 10.5737 2.91406 10.2285C2.91406 9.9121 3.14919 9.65061 3.45425 9.60922L3.53906 9.60352L16.0391 9.60352C16.3842 9.60352 16.6641 9.88334 16.6641 10.2285Z" fill="#F1F4F8"/>
+                            <path d="M9.01911 14.8069C9.26372 15.0505 9.26457 15.4462 9.02102 15.6908C8.79961 15.9132 8.45243 15.9341 8.20736 15.7531L8.13714 15.6927L3.09547 10.6727C2.87244 10.4506 2.85215 10.1022 3.03461 9.85715L3.09543 9.78696L8.1371 4.76613C8.38168 4.52256 8.77741 4.52338 9.02098 4.76796C9.24241 4.99031 9.26186 5.33757 9.07981 5.58187L9.01915 5.65184L4.42246 10.2301L9.01911 14.8069Z" fill="#F1F4F8"/>
+                        </svg>
+                    </button>
+                    <button @click="nextTestimonial" class="py-4 px-6 bg-[#C8E993] w-[68px] h-[52px] rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M3.33594 9.77148C3.33594 9.45507 3.57107 9.19358 3.87613 9.15219L3.96094 9.14648H16.4609C16.8061 9.14648 17.0859 9.42631 17.0859 9.77148C17.0859 10.0879 16.8508 10.3494 16.5457 10.3908L16.4609 10.3965H3.96094C3.61576 10.3965 3.33594 10.1167 3.33594 9.77148Z" fill="#1C2928"/>
+                            <path d="M10.9809 5.19307C10.7363 4.94952 10.7354 4.5538 10.979 4.30919C11.2004 4.08683 11.5476 4.06591 11.7926 4.24693L11.8629 4.30729L16.9045 9.32729C17.1276 9.54936 17.1479 9.89779 16.9654 10.1429L16.9046 10.213L11.8629 15.2339C11.6183 15.4774 11.2226 15.4766 10.979 15.232C10.7576 15.0097 10.7381 14.6624 10.9202 14.4181L10.9808 14.3482L15.5775 9.76993L10.9809 5.19307Z" fill="#1C2928"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="mb-6 flex flex-col sm:flex-row items-center justify-between rounded-[32px] bg-[rgba(200,233,147,0.05)]">
+                <div class="flex h-auto sm:h-[398px] flex-col justify-between py-10 sm:py-[89px] px-6 sm:px-12 text-center sm:text-left gap-10">
+                    <p class="text-white font-gelion-r text-base sm:text-xl leading-[26px] sm:leading-[34px] tracking-[-0.16px] sm:tracking-[-0.2px] max-w-[536px]">
+                        {{ testimonials[activeTestimonial].testimony }}
+                    </p>
+                    <div>
+                        <p class="mb-1 text-white text-base sm:text-lg leading-[20px] sm:leading-24px font-cabinet font-bold">
+                            {{ testimonials[activeTestimonial].author }}
+                        </p>
+                        <p class="font-gelion-r text-sm sm:text-lg sm:leading-[26px] tracking-[0.14px] sm:tracking-[0.18px] text-[#9FB8A8]">
+                            {{ testimonials[activeTestimonial].title }}
+                        </p>
+                    </div>
+                </div>
+                <div class="pb-10 sm:pb-0">
+                    <img :src="testimonials[activeTestimonial].img" alt="" class="w-[96px] sm:w-[439px] h-auto sm:h-[398px] rounded-[26px] sm:rounded-none sm:rounded-tr-[32px] sm:rounded-br-[32px]">
+                </div>
+            </div>
+            <div class="flex gap-4 items-center justify-center">
+                <div v-for="(testimonial, key) in testimonials" :key="key" class="indicator h-2 rounded-md cursor-pointer" :class="[activeTestimonial == key ? 'w-8 bg-[#C8E993]' : 'w-2 bg-[rgba(200,233,147,0.30)]']"></div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <style>
-.a{
-
-    
- 
-
-
-    
+    .indicator{
+        transition: all 1s ease 0s
+    }
+    .a{
 
 
 
-}
+
+
+    }
 </style>
+
+<script setup lang="ts">
+    
+    const activeTestimonial:Ref<number> = ref(0);
+
+    const testimonials = [
+        {
+            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
+            author: '0Yewande Odumosu',
+            title: 'Partner, HOAQ Club',
+            img: '/assets/img/yewande.png'
+        },
+        {
+            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
+            author: '1Yewande Odumosu',
+            title: 'Partner, HOAQ Club',
+            img: '/assets/img/yewande.png'
+        },
+        {
+            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
+            author: '2Yewande Odumosu',
+            title: 'Partner, HOAQ Club',
+            img: '/assets/img/yewande.png'
+        },
+        {
+            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
+            author: '3Yewande Odumosu',
+            title: 'Partner, HOAQ Club',
+            img: '/assets/img/yewande.png'
+        }
+    ];
+
+    function previousTestimonial(){
+        if(activeTestimonial.value != 0){
+            activeTestimonial.value--;
+        }
+    }
+
+    function nextTestimonial(){
+        if(activeTestimonial.value !== testimonials.length - 1){
+            activeTestimonial.value++;
+        }
+    }
+
+</script>

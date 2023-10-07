@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       'aventa': ['Aventa'],
+      'cabinet': ['Cabinet'],
       'gelion-l': ['Gelion Light'],
       'gelion-r': ['Gelion Regular'],
       'gelion-m': ['Gelion Medium'],
