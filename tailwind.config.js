@@ -8,6 +8,7 @@ export default {
       'gelion-l': ['Gelion Light'],
       'gelion-r': ['Gelion Regular'],
       'gelion-m': ['Gelion Medium'],
+      'gelion-smb': ['Gelion SemiBold'],
     }
   },
   plugins: [],

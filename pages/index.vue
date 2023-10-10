@@ -320,6 +320,7 @@
             </div>
         </div>
     </div>
+    <MainFooter/>
 </template>
 
 <style>
@@ -328,6 +329,7 @@
     }
     .a{
 
+    
 
 
 

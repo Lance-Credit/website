@@ -41,6 +41,13 @@
 }
 
 @font-face {
+    font-family: 'Gelion SemiBold';
+    src: url('~/assets/fonts/Gelion-SemiBold.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'Cabinet';
     src: url('~/assets/fonts/CabinetGrotesk-Variable.ttf');
     font-style: normal;
