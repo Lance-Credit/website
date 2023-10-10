@@ -45,7 +45,7 @@
         {
             name: 'Yewande Odumosu',
             title: 'Oga Pata Pata 1',
-            img: '/assets/img/team-yewande.png'
+            img: '/assets/img/team/yewande.png'
         },
         {
             name: 'Adebayo Opesanya',
