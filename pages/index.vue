@@ -327,14 +327,6 @@
     .indicator{
         transition: all 1s ease 0s
     }
-    .a{
-
-    
-
-
-
-
-    }
 </style>
 
 <script setup lang="ts">

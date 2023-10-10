@@ -1,5 +1,5 @@
 <template>
-    <footer class="pt-20 sm:pt-[104px] pb-20 sm:pb-[92px] px-8 bg-white">
+    <footer class="pt-20 sm:pt-[104px] pb-20 sm:pb-[92px] px-8 bg-[#FBFBFB]">
         <div class="mb-6 sm:mb-24 text-center">
             <p class="mb-4 text-[#061803] text-xl sm:text-[32px] leading-[24px] sm:leading-[38px] tracking-[-0.2px] sm:tracking-[-0.32px] font-medium">
                 Build and manage credit within your network in minutes
