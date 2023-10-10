@@ -49,8 +49,8 @@
 
 @font-face {
     font-family: 'Cabinet';
-    src: url('~/assets/fonts/CabinetGrotesk-Variable.ttf');
+    src: url('~/assets/fonts/CabinetGrotesk-Bold.woff2');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
 }
 
