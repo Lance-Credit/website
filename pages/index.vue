@@ -338,9 +338,9 @@
     const testimonials = [
         {
             testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
-            author: '0Yewande Odumosu',
-            title: 'Partner, HOAQ Club',
-            img: '/assets/img/yewande.png'
+            author: '- Bolanle',
+            title: '',
+            img: '/assets/img/bolanle.png'
         },
         {
             testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
