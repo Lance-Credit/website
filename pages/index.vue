@@ -192,7 +192,7 @@
                     <p class="mb-8 text-[#5C6C67] text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px] text-center sm:text-left">
                         Introducing our community codes system, designed to enhance safety and trust. Ensuring high standards of ethical conduct for lending and borrowing activities.
                     </p>
-                    <NuxtLink to="" class="btn btn-secondary flex items-center w-fit gap-4 mx-auto">
+                    <NuxtLink to="" class="btn btn-secondary flex items-center w-fit gap-4 mx-auto sm:ml-0">
                         <span>Get a loan on the web</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M3.33594 9.77148C3.33594 9.45507 3.57107 9.19358 3.87613 9.15219L3.96094 9.14648H16.4609C16.8061 9.14648 17.0859 9.42631 17.0859 9.77148C17.0859 10.0879 16.8508 10.3494 16.5457 10.3908L16.4609 10.3965H3.96094C3.61576 10.3965 3.33594 10.1167 3.33594 9.77148Z" fill="white"/>
