@@ -1,6 +1,6 @@
 <template>
     <div>
-        <MainMenu class="hidden sm:flex"/>
+        <MainMenu/>
         <HeroSection/>
         <div class="pt-20 sm:pt-[120px] pb-[104px] px-8 sm:px-[160px] bg-[#FBFBFB]">
             <h2 class="mb-10 hidden sm:block text-center font-medium text-[#021E1C]">

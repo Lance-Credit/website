@@ -1,6 +1,6 @@
 <template>
     <div>
-        <MainMenu class="hidden sm:flex group black"/>
+        <MainMenu class="group black"/>
         <div class="bg-[#FBFBFB] pt-[194px] sm:pt-[254px] sm:px-40 pb-0 sm:pb-[104px] text-center">
             <p class="px-8 mb-6 text-[#021E1C] text-[32px] sm:text-[40px] leading-[30px] sm:leading-[42px] font-medium">
                 Providing the best lending services<br>through multiple channels

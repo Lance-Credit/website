@@ -1,7 +1,7 @@
 <template>
-    <div class="z-10 w-full absolute py-9 px-[138.5px] flex justify-between">
-        <NuxtLink to="/">
-            <svg width="171" height="24" viewBox="0 0 171 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="z-10 w-full absolute py-16 sm:py-9 px-8 sm:px-[138.5px] flex justify-between">
+        <NuxtLink to="/" class="w-[134px] h-[18px] sm:w-[171px] sm:h-6">
+            <svg viewBox="0 0 171 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.88324 11.3978L9.35321 0.222132C9.678 -0.132895 10.0918 -0.0538805 10.2759 0.398562L12.3043 5.3776C12.3907 5.62274 12.4124 5.88773 12.3671 6.14468C12.3218 6.40164 12.2111 6.64106 12.0467 6.83776L8.10608 12.8385H2.6704C1.6143 12.8504 0.984362 12.4283 1.88324 11.3978Z" fill="" class="fill-[#C8E993] group-[.black]:fill-[#1C1E1E]"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M16.156 20.0012H3.72688C2.9873 19.9525 2.30047 19.7501 1.98395 18.9718L0.0703125 13.3379C0.310289 13.734 0.769554 14.1259 2.01598 14.1237H14.1431C14.3928 14.1367 14.6346 14.2197 14.8432 14.364C15.0517 14.5084 15.2193 14.7088 15.3285 14.9442L16.6732 19.184C16.8584 19.6342 16.6267 20.0023 16.156 20.0012Z" fill="" class="fill-[#C8E993] group-[.black]:fill-[#1C1E1E]"/>
                 <path d="M28.5644 14.1706C28.5644 14.5542 28.8753 14.8651 29.2589 14.8651H32.887C33.2706 14.8651 33.5815 15.1761 33.5815 15.5596V16.9496C33.5815 17.3331 33.2706 17.6441 32.887 17.6441H25.4289C25.0453 17.6441 24.7344 17.3331 24.7344 16.9496V3.55962C24.7344 3.17606 25.0453 2.86513 25.4289 2.86513H27.8699C28.2535 2.86513 28.5644 3.17606 28.5644 3.55962V14.1706Z" fill="" class="fill-[#C8E993] group-[.black]:fill-[#1C1E1E]"/>
@@ -17,7 +17,7 @@
                 <path d="M145.498 7.39145C145.114 7.39145 144.803 7.70238 144.803 8.08593V14.5283C144.803 15.23 144.945 15.7143 145.229 15.9809C145.513 16.2476 146.013 16.3809 146.729 16.3809H147.531C147.88 16.3809 148.163 16.6637 148.163 17.0125C148.163 17.3613 147.88 17.6441 147.531 17.6441H146.483C145.378 17.6441 144.557 17.4055 144.019 16.9283C143.482 16.4371 143.213 15.6371 143.213 14.5283V8.08593C143.213 7.70238 142.902 7.39145 142.519 7.39145H142.132C141.789 7.39145 141.511 7.11339 141.511 6.77039C141.511 6.4274 141.789 6.14934 142.132 6.14934H142.519C142.902 6.14934 143.213 5.83841 143.213 5.45486V3.95962C143.213 3.57606 143.524 3.26513 143.908 3.26513H144.109C144.492 3.26513 144.803 3.57606 144.803 3.95962V5.45485C144.803 5.83841 145.114 6.14934 145.498 6.14934H147.542C147.885 6.14934 148.163 6.4274 148.163 6.77039C148.163 7.11339 147.885 7.39145 147.542 7.39145H145.498Z" fill="" class="fill-[#C8E993] group-[.black]:fill-[#1C1E1E]"/>
             </svg>
         </NuxtLink>
-        <ul class="flex gap-16 items-center">
+        <ul class="hidden sm:flex gap-16 items-center">
             <li class="text-[#C8E993] group-[.black]:text-[#1C1E1E] font-gelion-m text-base font-medium">
                 Products
             </li>
@@ -35,5 +35,95 @@
                 </NuxtLink>
             </li>
         </ul>
+        <input v-model="menuButton" type="checkbox" role="button" aria-label="Display the menu" class="menu sm:hidden">
+        <ul
+            v-show="menuButton"
+            class="
+                absolute right-8 top-[90px]
+                w-[159px] bg-[#2A3B39] group-[.black]:bg-white rounded-md shadow-[4px_4px_20px_0_rgba(251,251,251,0.08)] text-[#FBFBFB] group-[.black]:text-[#1C2928]
+                group-[.black]:shadow-[4px_4px_20px_0_rgba(0,0,0,0.16)] font-gelion-l text-center text-base leading-[26px] sm:hidden"
+        >
+            <li>
+                <NuxtLink to="" class="block py-3 px-6">
+                    Lance for mobile
+                </NuxtLink>
+            </li>
+            <li class="border-y border-y-solid border-y-[#1C2928] group-[.black]:border-y-[#DADADA]">
+                <NuxtLink to="/" class="block py-3 px-6">
+                    Lance for web
+                </NuxtLink>
+            </li>
+            <li>
+                <NuxtLink to="/about" class="block py-3 px-6">
+                    About Lance
+                </NuxtLink>
+            </li>
+        </ul>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none">
+            <path d="M0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H17C17.2652 0 17.5196 0.105357 17.7071 0.292893C17.8946 0.48043 18 0.734784 18 1C18 1.26522 17.8946 1.51957 17.7071 1.70711C17.5196 1.89464 17.2652 2 17 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1ZM0 7C0 6.73478 0.105357 6.48043 0.292893 6.29289C0.48043 6.10536 0.734784 6 1 6H17C17.2652 6 17.5196 6.10536 17.7071 6.29289C17.8946 6.48043 18 6.73478 18 7C18 7.26522 17.8946 7.51957 17.7071 7.70711C17.5196 7.89464 17.2652 8 17 8H1C0.734784 8 0.48043 7.89464 0.292893 7.70711C0.105357 7.51957 0 7.26522 0 7ZM1 12C0.734784 12 0.48043 12.1054 0.292893 12.2929C0.105357 12.4804 0 12.7348 0 13C0 13.2652 0.105357 13.5196 0.292893 13.7071C0.48043 13.8946 0.734784 14 1 14H17C17.2652 14 17.5196 13.8946 17.7071 13.7071C17.8946 13.5196 18 13.2652 18 13C18 12.7348 17.8946 12.4804 17.7071 12.2929C17.5196 12.1054 17.2652 12 17 12H1Z" fill="#C8E993"/>
+        </svg> -->
     </div>
 </template>
+
+<style>
+    .menu {
+        
+        --s: 14px; /* control the size */
+        --c: #C8E993; /* the color */
+        
+        height: var(--s);
+        aspect-ratio: 1;
+        border: none;
+        padding: 0;
+        border-inline: calc(var(--s)/2) solid #0000;
+        box-sizing: content-box;
+        --_g1: linear-gradient(var(--c) 20%,#0000 0 80%,var(--c) 0) 
+               no-repeat content-box border-box;
+        --_g2: radial-gradient(circle closest-side at 50% 12.5%,var(--c) 95%,#0000) 
+               repeat-y content-box border-box;
+        background: 
+          var(--_g2) left  var(--_p,0px) top,
+          var(--_g1) left  calc(var(--s)/10 + var(--_p,0px)) top,
+          var(--_g2) right var(--_p,0px) top,
+          var(--_g1) right calc(var(--s)/10 + var(--_p,0px)) top;
+        background-size: 
+          20% 80%,
+          40% 100%;
+        position: relative;
+        clip-path: inset(0 25%);
+        -webkit-mask: linear-gradient(90deg,#0000,#000 25% 75%,#0000);
+        cursor: pointer;
+        transition: 
+          background-position .3s var(--_s,.3s), 
+          clip-path 0s var(--_s,.6s);
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .menu:before,
+      .menu:after {
+        content:"";
+        position: absolute;
+        border-radius: var(--s);
+        inset: 40% 0;
+        background: var(--c);
+      }
+      
+      .menu:checked {
+        clip-path: inset(0);
+        --_p: calc(-1*var(--s));
+        --_s: 0s;
+      }
+      .menu:checked:before {
+        transform: rotate(45deg);
+      }
+      .menu:checked:after {
+        transform: rotate(-45deg);
+      }
+
+</style>
+
+<script setup lang="ts">
+    const menuButton: Ref<boolean> = ref(false)
+</script>
