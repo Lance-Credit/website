@@ -20,7 +20,7 @@
                     <h4 class="mb-[42px] sm:hidden text-[#1C1E1E] font-normal text-center">
                         Lend and borrow loans from friends and family
                     </h4>
-                    <div class="px-[37.87px] sm:px-0">
+                    <div ref="mobileAppImage" class="px-[37.87px] sm:px-0 app-image" :class="showMobileAppImage ? 'mt-0' : 'mt-[calc(100%+100px)]'">
                         <div class="w-full h-full pt-[6.9px] pl-[7.86px] pr-[9.01px] bg-[url('~/assets/img/17c5cb58f2defb44266661431b124bd1.png')] bg-no-repeat bg-cover">
                             <img src="/assets/img/caf4ad3448d3bdd33aefa46ed2695aff.png" alt="" class="max-w-full">
                         </div>
@@ -111,7 +111,7 @@
                     <h4 class="mb-[42px] text-[#1C1E1E] font-medium text-center">
                         Request loans directly from<br>Lance Credit
                     </h4>
-                    <div class="w-full text-center">
+                    <div ref="webAppImage" class="w-full text-center app-image" :class="showWebAppImage ? 'mt-0' : 'mt-[calc(100%+100px)]'">
                         <img src="/assets/img/2c06cf4db2e27009601136b26b8b78f3.png" alt="" class="w-[calc(100%+26.09px)] sm:w-full max-w-[unset] sm:max-w-full sm:ml-[26.09px]">
                     </div>
                 </div>
@@ -326,13 +326,47 @@
 </template>
 
 <style>
-    .indicator{
+    .indicator, .app-image{
         transition: all 1s ease 0s
     }
 </style>
 
 <script setup lang="ts">
+
+    const mobileAppImage: Ref<HTMLDivElement | null> = ref(null);
     
+    const scrollY: Ref<number> = ref(0);
+
+    const showMobileAppImage = computed(()=>{
+        if(mobileAppImage.value && scrolledToView(mobileAppImage.value)){
+            return true;
+        }
+        return false;
+    });
+
+    const webAppImage: Ref<HTMLElement | null> = ref(null);
+
+    const showWebAppImage = computed(()=>{
+        if(webAppImage.value && scrolledToView(webAppImage.value)){
+            return true;
+        }
+        return false;
+    });
+
+    function scrolledToView(div: HTMLElement){
+        const divPosition = div.offsetTop;
+        const windowHeight = window.innerHeight;
+        if(scrollY.value > (divPosition - (windowHeight * 0.985))){
+            return true;
+        }
+        return false;
+    }
+
+
+    window.addEventListener('scroll', ()=>{
+        scrollY.value = window.scrollY;
+    });
+
     const activeTestimonial:Ref<number> = ref(0);
 
     const testimonials = [
