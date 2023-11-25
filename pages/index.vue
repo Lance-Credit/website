@@ -2,7 +2,7 @@
     <div>
         <MainMenu/>
         <HeroSection/>
-        <div class="pt-20 sm:pt-[120px] pb-[104px] px-8 sm:px-[160px] bg-[#FBFBFB]">
+        <div id="peer-to-peer" class="pt-20 sm:pt-[120px] pb-[104px] px-8 sm:px-[160px] bg-[#FBFBFB]">
             <h2 class="mb-10 hidden sm:block text-center font-medium text-[#021E1C]">
                 Providing the best lending services<br>through multiple channels
             </h2>
@@ -121,7 +121,7 @@
                     </svg>
                 </div>
             </div>
-            <div ref="webAppImage" class="mb-4 sm:mb-6 flex flex-col sm:flex-row gap-4 sm:gap-6 mx-auto max-w-[1120px]">
+            <div id="community-powered" ref="webAppImage" class="mb-4 sm:mb-6 flex flex-col sm:flex-row gap-4 sm:gap-6 mx-auto max-w-[1120px]">
                 <div class="w-full sm:w-[548px] h-[458px] sm:h-[558px] overflow-hidden pt-14 pb-[56.49px] pl-[17.16px] overflow-hidden rounded-3xl border border-solid border-[#F2F2F2] bg-white shadow-[15px_15px_20px_0_rgba(0,0,0,0.03)]">
                     <p class="mb-6 w-fit mx-auto py-1 px-6 bg-[#0A3D3A] rounded-[32px] text-center font-gelion-r font-normal text-[#F7FDF8] text-base">
                         Only available on the <span class="text-[#F7FDF8] font-gelion-m">Web</span>

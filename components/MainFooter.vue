@@ -39,18 +39,29 @@
                         <path d="M125.443 5.88158C125.232 5.88158 125.06 6.05313 125.06 6.26474V12.1263C125.06 12.7403 125.184 13.164 125.433 13.3974C125.681 13.6307 126.119 13.7474 126.746 13.7474H127.617C127.828 13.7474 128 13.9189 128 14.1305V14.4695C128 14.6811 127.828 14.8526 127.617 14.8526H126.53C125.563 14.8526 124.845 14.6439 124.374 14.2263C123.904 13.7965 123.669 13.0965 123.669 12.1263V6.26474C123.669 6.05313 123.497 5.88158 123.286 5.88158H122.563C122.351 5.88158 122.179 5.71003 122.179 5.49841V5.1779C122.179 4.96629 122.351 4.79474 122.563 4.79474H123.286C123.497 4.79474 123.669 4.62319 123.669 4.41157V2.65422C123.669 2.4426 123.84 2.27105 124.052 2.27105H124.677C124.889 2.27105 125.06 2.4426 125.06 2.65422V4.41157C125.06 4.62319 125.232 4.79474 125.443 4.79474H127.617C127.828 4.79474 128 4.96629 128 5.1779V5.49841C128 5.71003 127.828 5.88158 127.617 5.88158H125.443Z" fill="black"/>
                     </svg>
                 </div>
-                <p class="max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
-                    Build & Manage Credit within your Network  within your Network within your Network Build & Manage
+                <p class="mb-2 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
+                    Lance Credit is a product of Lance Technologies LLC. Cooperative & Lending Services are powered by Growstack Cooperative Society Limited
                 </p>
+                <p class="mb-2 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
+                    Lance Technologies LLC<br>
+                    1007 N Orange St. 4th Floor Ste 1382<br>
+                    Wilmington, Delaware, United States
+                </p>
+                <p class="mb-2 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
+                    All rights reserved.
+                </p>
+                <NuxtLink to="https://lanceteam.notion.site/Privacy-Policy-143cd64f921d4964a9e2c6349b89b1a8" target="_blank" class="max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
+                    Terms & Privacy
+                </NuxtLink>
             </li>
             <li class="hidden sm:block">
                 <p class="mb-6 text-black font-gelion-smb text-lg leading-[26px]">Services</p>
                 <ul>
                     <li>
-                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">Community Loans</NuxtLink>
+                        <NuxtLink to="/#community-powered" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">Community Loans</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">Peer to Peer Loans</NuxtLink>
+                        <NuxtLink to="/#peer-to-peer" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">Peer to Peer Loans</NuxtLink>
                     </li>
                 </ul>
             </li>
@@ -58,16 +69,13 @@
                 <p class="mb-6 text-black font-gelion-smb text-lg leading-[26px]">Contact</p>
                 <ul>
                     <li>
-                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">notifications@lancecredit.com</NuxtLink>
+                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">support@lancecredit.com</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">+234 8555555555</NuxtLink>
+                        <NuxtLink to="http://linkedin.com/" target="_blank" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">LinkedIn</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">LinkedIn</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">Twitter</NuxtLink>
+                        <NuxtLink to="https://twitter.com/lancecredit" target="_blank" class="mb-4 text-[#4F504F] font-gelion-r text-lg leading-[26px]">Twitter</NuxtLink>
                     </li>
                 </ul>
             </li>
