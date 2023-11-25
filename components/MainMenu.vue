@@ -19,10 +19,12 @@
         </NuxtLink>
         <ul class="hidden sm:flex gap-16 items-center">
             <li class="text-[#C8E993] group-[.black]:text-[#1C1E1E] font-gelion-m text-base font-medium">
-                Products
+                <NuxtLink to="/#peer-to-peer">
+                    Products
+                </NuxtLink>
             </li>
             <li class="text-[#C8E993] group-[.black]:text-[#1C1E1E] font-gelion-m text-base font-medium">
-                <NuxtLink to="/about">
+                <NuxtLink to="#about">
                     About Us
                 </NuxtLink>
             </li>
