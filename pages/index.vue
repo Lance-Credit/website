@@ -176,7 +176,7 @@
                             </svg>
                         </div>
                         <p class="mb-[34px] sm:mb-[35px] text-center text-[#1C1E1E] font-gelion-l text-lg sm:text-2xl leading-[22px] sm:leading-[28px] tracking-[-0.18px] sm:tracking-[-0.24px]">
-                            Get a loan form lance in like 4 clicks<br> so. Just check it out and see
+                            Get a loan from Lance in 4 steps
                         </p>
                         <div @click="startAppTransitions('web')" class="flex items-center justify-center w-[64px] sm:w-[98px] h-[64px] sm:h-[98px] rounded-full bg-[#1C2928] mx-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="34" viewBox="0 0 33 34" fill="none" class="w-[28px] sm:w-[33px]">
@@ -206,7 +206,7 @@
                 <p class="mb-8 text-[#ACBD91] font-gelion-r text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px]">
                     Lance Credit allows you to request for loans directly from Lance, powered by a community network. 
                 </p>
-                <NuxtLink to="" class="btn btn-primary flex items-center gap-4 w-fit mx-auto">
+                <NuxtLink to="https://tally.so/r/w2KLJL" target="_blank" class="btn btn-primary flex items-center gap-4 w-fit mx-auto">
                     <span>Get a loan from Lance </span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path d="M3.33594 9.77148C3.33594 9.45507 3.57107 9.19358 3.87613 9.15219L3.96094 9.14648H16.4609C16.8061 9.14648 17.0859 9.42631 17.0859 9.77148C17.0859 10.0879 16.8508 10.3494 16.5457 10.3908L16.4609 10.3965H3.96094C3.61576 10.3965 3.33594 10.1167 3.33594 9.77148Z" fill="#081A18"/>
@@ -454,25 +454,25 @@
 
     const webSteps = ref([
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
-            title: 'Create an account',
+            description: 'Build & Manage credit leveraging your Network & Lance',
+            title: 'Create an account with a community code',
             img: '/assets/img/web-step-1.svg',
             class: 'w-[131.278px] sm:w-[195.452px]'
         },
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
+            description: 'Build & Manage credit leveraging your Network & Lance',
             title: 'Complete KYC Processes',
             img: '/assets/img/web-step-2.svg',
             class: 'w-[192.54px] sm:w-[286.664px]'
         },
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
+            description: 'Build & Manage credit leveraging your Network & Lance',
             title: 'Send Loan Application',
             img: '/assets/img/mobile-step-1.svg',
             class: 'w-[124.613px] sm:w-[185.538px]'
         },
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
+            description: 'Build & Manage credit leveraging your Network & Lance',
             title: 'Loan Delivered',
             img: '/assets/img/mobile-step-3.svg',
             class: 'w-[220.963px] sm:w-[297.073px]'
@@ -485,7 +485,7 @@
         }else {
             startMobileAppTransitions.value = true;
         }
-        setInterval(() => nextAppStep(app), 2000);
+        setInterval(() => nextAppStep(app), 4000);
     }
 
     function nextAppStep(app: string){
