@@ -18,7 +18,10 @@
                         Meet the Lance Credit Team
                     </p>
                     <p class="max-w-[453px] text-[#9FB8A8] text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px] font-gelion-r">
-                        Introducing our community codes system, designed to enhance safety and trust.
+                        Lance’s mission is to improve the financial happiness of underserved Africans, starting with making credit more accessible.
+                    </p>
+                    <p class="max-w-[453px] text-[#9FB8A8] text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px] font-gelion-r">
+                        The team is made up of a combination of some of the top technologists on the African continent. We are deeply passionate and share deep values around using technology to bring amazing solutions to reality for Africans.
                     </p>
                 </div>
                 <ul class="flex gap-x-6 sm:gap-x-16 gap-y-16 sm:gap-y-20 text-center flex-wrap justify-center">
@@ -45,12 +48,12 @@
     const teamMembers = [
         {
             name: 'Yewande Odumosu',
-            title: 'Oga Pata Pata 1',
+            title: 'Co-Founder',
             img: '/assets/img/team/yewande.png'
         },
         {
             name: 'Adebayo Opesanya',
-            title: 'Oga Pata Pata 1',
+            title: 'Co-Founder/Engineering',
             img: ''
         },
         {
