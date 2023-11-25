@@ -228,8 +228,8 @@
                     <p class="mb-8 text-[#5C6C67] text-base sm:text-lg leading-[26px] tracking-[0.16px] sm:tracking-[0.18px] text-center sm:text-left">
                         Introducing our community codes system, designed to enhance safety and trust. Ensuring high standards of ethical conduct for lending and borrowing activities.
                     </p>
-                    <NuxtLink to="" class="btn btn-secondary flex items-center w-fit gap-4 mx-auto sm:ml-0">
-                        <span>Get a loan on the web</span>
+                    <NuxtLink to="https://tally.so/r/w2KLJL" target="_blank" class="btn btn-secondary flex items-center w-fit gap-4 mx-auto sm:ml-0">
+                        <span>Apply for a community code</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M3.33594 9.77148C3.33594 9.45507 3.57107 9.19358 3.87613 9.15219L3.96094 9.14648H16.4609C16.8061 9.14648 17.0859 9.42631 17.0859 9.77148C17.0859 10.0879 16.8508 10.3494 16.5457 10.3908L16.4609 10.3965H3.96094C3.61576 10.3965 3.33594 10.1167 3.33594 9.77148Z" fill="white"/>
                             <path d="M10.9809 5.19307C10.7363 4.94952 10.7354 4.5538 10.979 4.30919C11.2004 4.08683 11.5476 4.06591 11.7926 4.24693L11.8629 4.30729L16.9045 9.32729C17.1276 9.54936 17.1479 9.89779 16.9654 10.1429L16.9046 10.213L11.8629 15.2339C11.6183 15.4774 11.2226 15.4766 10.979 15.232C10.7576 15.0097 10.7381 14.6624 10.9202 14.4181L10.9808 14.3482L15.5775 9.76993L10.9809 5.19307Z" fill="white"/>
