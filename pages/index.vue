@@ -435,19 +435,19 @@
 
     const mobileSteps = ref([
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
+            description: 'Build & Manage Credit within your Network',
             title: 'Request a Loan',
             img: '/assets/img/mobile-step-1.svg',
             class: 'w-[124.613px] sm:w-[185.538px]'
         },
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
-            title: 'Confirm your Witness',
+            description: 'Build & Manage Credit within your Network',
+            title: 'Review and agree terms',
             img: '/assets/img/mobile-step-2.svg',
             class: 'w-[132.167px] sm:w-[196.785px]'
         },
         {
-            description: 'Build & Manage Credit within your Network Build Build & Manage Credit within your Network Build',
+            description: 'Build & Manage Credit within your Network',
             title: 'Loan Delivered',
             img: '/assets/img/mobile-step-3.svg',
             class: 'w-[220.963px] sm:w-[297.073px]'
