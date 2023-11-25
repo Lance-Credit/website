@@ -335,8 +335,8 @@
                     </div>
                 </div>
                 <div class="mb-6 flex flex-col sm:flex-row items-center justify-between rounded-[32px] bg-[rgba(200,233,147,0.05)]">
-                    <div class="flex h-auto sm:h-[398px] flex-col justify-between py-10 sm:py-[89px] px-6 sm:px-12 text-center sm:text-left gap-10">
-                        <p class="text-white font-gelion-r text-base sm:text-xl leading-[26px] sm:leading-[34px] tracking-[-0.16px] sm:tracking-[-0.2px] max-w-[536px]">
+                    <div class="flex h-auto sm:h-[420px] flex-col justify-between py-10 sm:py-8 px-6 sm:px-8 text-center sm:text-left gap-5">
+                        <p class="text-white font-gelion-r text-sm sm:text-xl leading-[26px] sm:leading-[34px] tracking-[-0.16px] sm:tracking-[-0.2px] max-w-[536px] sm:max-w-[636px]">
                             {{ testimonials[activeTestimonial].testimony }}
                         </p>
                         <div>
@@ -349,7 +349,7 @@
                         </div>
                     </div>
                     <div class="pb-10 sm:pb-0">
-                        <img :src="testimonials[activeTestimonial].img" alt="" class="w-[96px] sm:w-[439px] h-auto sm:h-[398px] rounded-[26px] sm:rounded-none sm:rounded-tr-[32px] sm:rounded-br-[32px]">
+                        <img :src="testimonials[activeTestimonial].img" alt="" class="w-[96px] sm:w-[439px] h-auto sm:h-[420px] rounded-[26px] sm:rounded-none sm:rounded-tr-[32px] sm:rounded-br-[32px]">
                     </div>
                 </div>
                 <div class="flex gap-4 items-center justify-center">
@@ -509,24 +509,24 @@
         },
         {
             active: false,
-            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
-            author: '1Yewande Odumosu',
-            title: 'Partner, HOAQ Club',
-            img: '/assets/img/yewande.png'
+            testimony: '"I\'ve always believed in the strength of community, and Lance Credit aligns perfectly with that belief. Instead of relying solely on traditional borrowing methods, I now have the flexibility to tap into a network who trust me based on my community interactions and credibility. The platform has not only given me financial support when I needed it but has also strengthened my connections within my community. Lance credit is more than just a credit platform; it\'s a tool for fostering trust and collaboration among people. I\'m grateful to have discovered such a forward-thinking and community-centric financial solution"',
+            author: '- Richard',
+            title: '',
+            img: '/assets/img/Richard.jpg'
         },
         {
             active: false,
-            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
-            author: '2Yewande Odumosu',
-            title: 'Partner, HOAQ Club',
-            img: '/assets/img/yewande.png'
+            testimony: '“I never thought borrowing money could be this seamless and empowering! With Lance, I can go beyond relying on my family and friends when unexpected expenses arise. The platform not only provided me with quick access to funds but also allowed me to leverage my community relationships for better rates. Now, I can borrow with confidence, knowing that my social network credibility is working in my favor. This is a game-changer for anyone who values trust and efficiency in financial transactions. Thank you, Lance, for revolutionizing the way we access credit in Africa!”',
+            author: '- Chiamaka',
+            title: '',
+            img: '/assets/img/Chiamaka.jpg'
         },
         {
             active: false,
-            testimony: '“Lance Credit has been a game-changer for my financial situation. The loan options are safe and reliable, so I never have to worry about hidden fees or outrageous interest rates”',
-            author: '3Yewande Odumosu',
-            title: 'Partner, HOAQ Club',
-            img: '/assets/img/yewande.png'
+            testimony: '“As someone who often needs financial assistance, I used to feel the burden of borrowing from friends and family. Lance Credit has completely transformed this experience for me. The platform seamlessly integrates with my social network, allowing me to borrow directly from my community. What\'s even more impressive is that the interest rates are fair and transparent. It feels great to be able to access credit without straining personal relationships. Lance credit has truly made borrowing a positive and community-building experience. I highly recommend it to anyone looking for a reliable and innovative credit solution in Africa”',
+            author: '- Hassan',
+            title: '',
+            img: '/assets/img/Hassan.jpg'
         }
     ]);
 
