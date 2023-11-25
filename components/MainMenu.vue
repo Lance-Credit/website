@@ -27,11 +27,11 @@
                 </NuxtLink>
             </li>
             <li>
-                <NuxtLink to="" class="btn btn-primary group-[.black]:hidden">
-                    Contact Sales
+                <NuxtLink to="mailto:support@lancecredit.com" class="btn btn-primary group-[.black]:hidden">
+                    Contact Team
                 </NuxtLink>
-                <NuxtLink to="" class="hidden btn btn-secondary group-[.black]:block">
-                    Contact Sales
+                <NuxtLink to="mailto:support@lancecredit.com" class="hidden btn btn-secondary group-[.black]:block">
+                    Contact Team
                 </NuxtLink>
             </li>
         </ul>

@@ -6,7 +6,7 @@
             At Lance, We're turning dreams into reality by fueling dreams, aspirations, and driving
             progress like never before. Welcome to the new future of credit for the African market.
         </p>
-        <NuxtLink to="" class="sm:hidden flex w-fit mx-auto mt-10 btn btn-primary">Contact Sales</NuxtLink>
+        <NuxtLink to="mailto:support@lancecredit.com" class="sm:hidden flex w-fit mx-auto mt-10 btn btn-primary">Contact Team</NuxtLink>
         <div class="w-full h-full absolute bottom-0 left-0 overflow-hidden">
             <svg xmlns="http://www.w3.org/2000/svg" width="112" height="102" viewBox="0 0 112 102" fill="none" class="absolute w-[57px] sm:w-[112px] h-auto bottom-[66px] sm:bottom-[29.02px] left-[112.8px] sm:left-[110px]">
                 <path d="M65.8394 101.982L0 63.9682L31.985 45.4902L97.8244 83.5186L65.8394 101.982Z" fill="#0B0D0D"/>
