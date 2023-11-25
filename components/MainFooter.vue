@@ -73,7 +73,7 @@
             </li>
         </ul>
         <p class="max-w-[1120px] mx-auto mt-4 text-[#4F504F] font-gelion-l text-justify text-xs leading-[24px]">
-            © 2023. Lance is a community-based bank and duly licensed by the Central Bank of Nigeria. Unauthorised
+            © {{ new Date().getFullYear() }}. Lance Credit is a product of Lance Technologies LLC. Unauthorised
             reproduction or redistribution of copyrighted materials on this website and Lance's digital media pages
             is strictly prohibited. By clicking on some of the links above, you will leave Lance's website and be
             directed to a third-party website. The privacy practices of those third parties may differ from those
