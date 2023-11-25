@@ -7,8 +7,7 @@
             </p>
             <p class="px-8 mb-10 sm:mb-16 max-w-[623px] mx-auto text-[#5C6C67] font-gelion-l text-base sm:text-lg leading-[26px]">
                 At Lance, We're turning dreams into reality by fueling dreams, aspirations, and
-                driving progress like never before. At Lance, We're turning dreams into reality
-                by fueling dreams, aspirations, and driving progress like never before.
+                driving progress like never before.
             </p>
             <div class="max-w-[1120px] h-[324px] mx-auto bg-[#D8D6D6] sm:rounded-[10px]"></div>
         </div>
