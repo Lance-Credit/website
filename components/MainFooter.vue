@@ -8,14 +8,14 @@
                 Lance Credit allows you to give and receive loans from the people within your network and to request for loans directly from the platform. 
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <NuxtLink to="" class="btn btn-secondary flex gap-4 items-center">
+                <NuxtLink to="https://tally.so/r/w2KLJL" target="_blank" class="btn btn-secondary flex gap-4 items-center">
                     <span>Discover the web platform</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                         <path d="M3.83594 9.77148C3.83594 9.45507 4.07107 9.19358 4.37613 9.15219L4.46094 9.14648H16.9609C17.3061 9.14648 17.5859 9.42631 17.5859 9.77148C17.5859 10.0879 17.3508 10.3494 17.0457 10.3908L16.9609 10.3965H4.46094C4.11576 10.3965 3.83594 10.1167 3.83594 9.77148Z" fill="#F1F4F8"/>
                         <path d="M11.4809 5.19307C11.2363 4.94952 11.2354 4.5538 11.479 4.30919C11.7004 4.08683 12.0476 4.06591 12.2926 4.24693L12.3629 4.30729L17.4045 9.32729C17.6276 9.54936 17.6479 9.89779 17.4654 10.1429L17.4046 10.213L12.3629 15.2339C12.1183 15.4774 11.7226 15.4766 11.479 15.232C11.2576 15.0097 11.2381 14.6624 11.4202 14.4181L11.4808 14.3482L16.0775 9.76993L11.4809 5.19307Z" fill="#F1F4F8"/>
                     </svg>
                 </NuxtLink>
-                <NuxtLink to="" class="btn btn-tertiary flex gap-4 items-center">
+                <NuxtLink to="https://tally.so/r/npDGPq" target="_blank" class="btn btn-tertiary flex gap-4 items-center">
                     Discover the mobile app
                 </NuxtLink>
             </div>
