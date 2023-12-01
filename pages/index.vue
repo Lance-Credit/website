@@ -79,15 +79,17 @@
                         </div>
                     </div>
                     <div v-show="startMobileAppTransitions" class="text-center">
-                        <div class="mb-[42px] sm:mb-[34.69px] mx-auto w-fit">
-                            <img :src="mobileSteps[activeMobileStep].img" alt="" :class="mobileSteps[activeMobileStep].class">
+                        <div v-show="activeMobileStep == key" v-for="(step, key) in mobileSteps" :key="key">
+                            <div class="mb-[42px] sm:mb-[34.69px] mx-auto w-fit">
+                                <img :src="step.img" alt="" :class="step.class">
+                            </div>
+                            <p class="mb-1 sm:mb-2 text-black text-lg sm:text-2xl leading-[28px] font-medium">
+                                {{ step.title }}
+                            </p>
+                            <p class="mb-6 sm:mb-10 text-[#4F504F] font-gelion-r text-base leading-[26px]">
+                                {{ step.description }}
+                            </p>
                         </div>
-                        <p class="mb-1 sm:mb-2 text-black text-lg sm:text-2xl leading-[28px] font-medium">
-                            {{ mobileSteps[activeMobileStep].title }}
-                        </p>
-                        <p class="mb-6 sm:mb-10 text-[#4F504F] font-gelion-r text-base leading-[26px]">
-                            {{ mobileSteps[activeMobileStep].description }}
-                        </p>
                         <div class="flex gap-4 items-center justify-center">
                             <SlideIndicator v-for="(step, key) in mobileSteps" :key="key" :active="activeMobileStep == key ? true : false" default-color="#C8E993" active-color="#1C2928" />
                         </div>
@@ -190,15 +192,17 @@
                         </div>
                     </div>
                     <div v-show="startWebAppTransitions" class="text-center">
-                        <div class="mb-[42px] sm:mb-[34.69px] mx-auto w-fit">
-                            <img :src="webSteps[activeWebStep].img" alt="" :class="webSteps[activeWebStep].class">
+                        <div v-show="activeWebStep == key" v-for="(step, key) in webSteps" :key="key">
+                            <div class="mb-[42px] sm:mb-[34.69px] mx-auto w-fit">
+                                <img :src="step.img" alt="" :class="step.class">
+                            </div>
+                            <p class="mb-1 sm:mb-2 text-black text-lg sm:text-2xl leading-[28px] font-medium">
+                                {{ step.title }}
+                            </p>
+                            <p class="mb-6 sm:mb-10 text-[#4F504F] font-gelion-r text-base leading-[26px]">
+                                {{ step.description }}
+                            </p>
                         </div>
-                        <p class="mb-1 sm:mb-2 text-black text-lg sm:text-2xl leading-[28px] font-medium">
-                            {{ webSteps[activeWebStep].title }}
-                        </p>
-                        <p class="mb-6 sm:mb-10 text-[#4F504F] font-gelion-r text-base leading-[26px]">
-                            {{ webSteps[activeWebStep].description }}
-                        </p>
                         <div class="flex gap-4 items-center justify-center">
                             <SlideIndicator v-for="(step, key) in webSteps" :key="key" :active="activeWebStep == key ? true : false" default-color="#C8E993" active-color="#1C2928" />
                         </div>
