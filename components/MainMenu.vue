@@ -56,7 +56,7 @@
                 </NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/about" class="block py-3 px-6">
+                <NuxtLink to="/#about" class="block py-3 px-6">
                     About Lance
                 </NuxtLink>
             </li>
