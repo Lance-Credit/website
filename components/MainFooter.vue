@@ -42,7 +42,7 @@
                 <p class="mb-2 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
                     Lance Credit is a product of Lance Technologies LLC. Cooperative & Lending Services are powered by Growstack Cooperative Society Limited
                 </p>
-                <p class="mb-2 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
+                <p class="mb-8 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
                     Lance Technologies LLC<br>
                     1007 N Orange St. 4th Floor Ste 1382<br>
                     Wilmington, Delaware, United States
