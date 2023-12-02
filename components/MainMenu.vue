@@ -46,12 +46,12 @@
                 group-[.black]:shadow-[4px_4px_20px_0_rgba(0,0,0,0.16)] font-gelion-l text-center text-base leading-[26px] sm:hidden"
         >
             <li>
-                <NuxtLink to="" class="block py-3 px-6">
+                <NuxtLink to="https://tally.so/r/npDGPq" target="_blank" class="block py-3 px-6">
                     Lance for mobile
                 </NuxtLink>
             </li>
             <li class="border-y border-y-solid border-y-[#1C2928] group-[.black]:border-y-[#DADADA]">
-                <NuxtLink to="/" class="block py-3 px-6">
+                <NuxtLink to="https://tally.so/r/w2KLJL" target="_blank" class="block py-3 px-6">
                     Lance for web
                 </NuxtLink>
             </li>
