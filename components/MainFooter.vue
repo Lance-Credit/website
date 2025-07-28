@@ -50,7 +50,7 @@
                 <p class="mb-2 max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
                     All rights reserved.
                 </p>
-                <NuxtLink to="https://lanceteam.notion.site/Privacy-Policy-143cd64f921d4964a9e2c6349b89b1a8" target="_blank" class="max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
+                <NuxtLink to="/privacy-policy" class="max-w-[438px] text-[#4F504F] text-sm sm:text-lg leading-[24px] sm:leading-[26px] font-gelion-r">
                     Terms & Privacy
                 </NuxtLink>
             </li>
