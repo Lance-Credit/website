@@ -8,7 +8,7 @@
                 Lance Credit allows you to give and receive loans from the people within your network and to request for loans directly from the platform. 
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <NuxtLink to="https://tally.so/r/w2KLJL" target="_blank" class="btn btn-secondary flex gap-4 items-center">
+                <NuxtLink to="https://app.lancecredit.com" target="_blank" class="btn btn-secondary flex gap-4 items-center">
                     <span>Discover the web platform</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
                         <path d="M3.83594 9.77148C3.83594 9.45507 4.07107 9.19358 4.37613 9.15219L4.46094 9.14648H16.9609C17.3061 9.14648 17.5859 9.42631 17.5859 9.77148C17.5859 10.0879 17.3508 10.3494 17.0457 10.3908L16.9609 10.3965H4.46094C4.11576 10.3965 3.83594 10.1167 3.83594 9.77148Z" fill="#F1F4F8"/>
