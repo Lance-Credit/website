@@ -1,7 +1,7 @@
 <template>
     <div>
         <MainMenu/>
-        <div class="relative pt-[194px] md:pt-[254px] pb-[348px] px-8 md:px-[323px] bg-[#1C2928]">
+        <div class="relative pt-[194px] md:pt-[254px] pb-[348px] px-8 md:px-[323px] bg-[#1C2928] privacy-policy">
             <h1 class="text-[#C8E993] font-normal">Privacy Policy</h1>
             <section class="mb-4 text-white font-gelion-l text-base md:text-xl leading-[26px]">
                 <p class="mb-2">Lance Credit built the Lance app as a Commercial app. This SERVICE is provided by Lance Technologies LLC and is intended for use as is.</p>
@@ -17,6 +17,16 @@
                 <ul>
                     <li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li>
                 </ul>
+                <br>
+                <h3 class="mb-3 text-[#C8E993] font-normal">Phone Number Collection and Use</h3>
+                <p class="mb-2">As part of providing lending and financial services, we are legally required to verify the identity of our users under Know Your Customer (KYC) and Anti-Money Laundering (AML) regulations.For this reason, we collect and verify your phone number during registration and account use. </p>
+                <p>This information is used for:</p>
+                <ul>
+                    <li>Identity verification and compliance with applicable financial regulations.</li>
+                    <li>Secure authentication and account recovery.</li>
+                    <li>Fraud prevention and protection of user accounts.</li>
+                </ul>
+                <p>We do not collect phone numbers for marketing purposes or for any reason unrelated to providing and securing our lending services.</p>
             </section>
             <section class="mb-4 text-white font-gelion-l text-base md:text-xl leading-[26px]">
                 <h2 class="mb-3 text-[#C8E993] font-normal">Log Data</h2>
